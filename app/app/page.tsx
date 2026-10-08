@@ -89,27 +89,22 @@ export default function Home() {
         <section id="top" aria-label="Browsers and buyers" className="relative flex min-h-[100svh] items-center justify-center overflow-hidden px-16">
           <HeroGarden />
           <div className="relative text-center">
-            <p className="label">Google Merchandise Store · Nov 2020 – Jan 2021</p>
+            <p className="label text-[13px] tracking-[0.3em]">Google Merchandise Store · Nov 2020 – Jan 2021</p>
             <h1 className="display relative mt-40 text-[76px] leading-[0.85] sm:text-[120px]">
               <svg aria-hidden className="absolute left-1/2 top-1/2 h-[150px] w-[150px] -translate-x-1/2 -translate-y-1/2 sm:h-[210px] sm:w-[210px]" viewBox="0 0 100 100">
-                <path d="M18 18 L82 82 M82 18 L18 82" stroke="#ff5734" strokeWidth="0.7" />
+                <path d="M18 18 L82 82 M82 18 L18 82" stroke="#f6a58c" strokeWidth="0.8" />
               </svg>
               <span className="relative block">Browsers</span>
               <span className="sr-only"> and </span>
               <span className="relative mt-[0.18em] block">Buyers</span>
             </h1>
-            <p className="mx-auto mt-40 max-w-[420px] text-[16px] leading-[1.6]">
-              {fmt(all.users)} people visited Google&apos;s online merch store in three months. {pct(buyers / all.users)} bought something.
-              This is where the rest went, traced in BigQuery SQL.
-            </p>
-            <a href="#funnel" className="pill mt-32">Follow the shoppers</a>
           </div>
         </section>
 
         <Section id="story" label="The question" title="Window shopping, mostly"
           lede={<p>Google sells hoodies, mugs and stickers in its own online store, and it shares three months of that store&apos;s
-            Google Analytics data with anyone: every page view, every cart, every order, {fmt(all.events)} events in all. Most visitors
-            leave without buying. That is normal. The question is <em>where</em> they leave, which ones were worth keeping, and what the store
+            Google Analytics data with anyone: every page view, every cart, every order, {fmt(all.events)} events in all. {fmt(all.users)} people visited in those three months,
+            and {pct(buyers / all.users)} of them bought something. That is normal for a store. The question is <em>where</em> they leave, which ones were worth keeping, and what the store
             should fix first.</p>}>
           <div id="overview" className="scroll-mt-80 border border-coral-vermillion/70 p-12 sm:p-24">
             <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
