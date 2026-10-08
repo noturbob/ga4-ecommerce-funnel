@@ -3,8 +3,8 @@ export function Bars({ rows, max, label }: { rows: { label: string; value: numbe
   const top = max ?? Math.max(...rows.map((r) => r.value));
   return (
     <div role="list" aria-label={label} className="flex flex-col gap-16">
-      {rows.map((r) => (
-        <div role="listitem" key={r.label} className="grid grid-cols-[minmax(0,1fr)_auto] items-end gap-x-16 gap-y-4 sm:grid-cols-[200px_minmax(0,1fr)_96px] sm:items-center">
+      {rows.map((r, i) => (
+        <div role="listitem" key={`${r.label}-${i}`} className="grid grid-cols-[minmax(0,1fr)_auto] items-end gap-x-16 gap-y-4 sm:grid-cols-[200px_minmax(0,1fr)_96px] sm:items-center">
           <p className="text-[16px] leading-[1.3]">{r.label}{r.note && <span className="block text-[13px] text-ink-navy/60">{r.note}</span>}</p>
           <div className="order-3 col-span-2 h-[10px] bg-blush-canvas sm:order-none sm:col-span-1" title={`${r.label}: ${r.display}`}>
             <div className={`h-full ${r.hi ? "bg-ember-orange" : "bg-forest-ink"}`} style={{ width: `${(100 * Math.max(0, r.value)) / top}%` }} />
