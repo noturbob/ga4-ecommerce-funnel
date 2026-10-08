@@ -1,0 +1,7 @@
+dimension,segment,visitors,view_item,add_to_cart,begin_checkout,add_shipping_info,add_payment_info,purchase,any_purchase
+all,all,213114,45985,12081,5339,5339,3472,2783,3426
+device,desktop,123734,26856,7002,3087,3087,2002,1589,1953
+device,mobile,84568,18075,4813,2134,2134,1392,1131,1394
+device,tablet,4812,1054,266,118,118,78,63,79
+season,holiday,121671,27759,8766,4117,4117,2591,2105,2581
+season,january,91443,18226,3315,1222,1222,881,678,845

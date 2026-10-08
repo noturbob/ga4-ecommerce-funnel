@@ -1,0 +1,8 @@
+issue,count,handling
+"Visitors with more than one ""first"" traffic source",41164,A first-touch source should never change; channel results use each visitor’s first event and are read as rough.
+Visits where shipping info is logged before checkout starts,6862,"The two fire together, so they are treated as one step."
+Visits with a purchase but no add-to-cart in that visit,2000,"Buyers often add to cart in an earlier visit, so funnels follow visitors, not single visits."
+Purchase events without an order ID,883,Left out of order counts and revenue; still counted as buyers.
+Purchase events that repeat an order already counted,335,Each order is counted once.
+Days with no add-to-cart events at all,18,Cart tracking was off until 16 Nov 2020 and on and off until 25 Nov; cart analysis starts 25 Nov.
+Purchased product IDs that also appear on a product view,4,"IDs were obfuscated per event type, so products cannot be followed from view to sale; product analysis uses purchases only."

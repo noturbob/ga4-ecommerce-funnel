@@ -1,0 +1,6 @@
+[project]
+name = "ga4-ecommerce-funnel"
+version = "0.1.0"
+description = "Where does the Google Merchandise Store lose its shoppers? Funnel, channel and retention analysis in BigQuery SQL"
+requires-python = ">=3.12"
+dependencies = ["google-cloud-bigquery>=3.25", "db-dtypes>=1.2"]

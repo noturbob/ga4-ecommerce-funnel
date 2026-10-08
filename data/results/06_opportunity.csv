@@ -1,0 +1,6 @@
+step,leak,reached,passed,lost,pass_rate,buy_rate_after,extra_buyers,extra_revenue,avg_order_value
+1,Browsing → viewing a product,213114,45985,167129,0.2158,0.0605,1011.5,70124.0,69.33
+2,Viewing → adding to cart,45985,12081,33904,0.2627,0.2304,781.0,54147.0,69.33
+3,Cart → starting checkout,12081,5339,6742,0.4419,0.5213,351.4,24365.0,69.33
+4,Shipping → entering payment,5339,3472,1867,0.6503,0.8016,149.7,10375.0,69.33
+5,Payment → completing the order,3472,2783,689,0.8016,1.0,68.9,4777.0,69.33

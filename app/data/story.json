@@ -1,0 +1,764 @@
+{
+ "overview": [
+  {
+   "month": "2020-11",
+   "events": 1472712,
+   "users": 79421,
+   "sessions": 108401,
+   "purchase_events": 2054,
+   "purchases_without_id": 489,
+   "orders": 1258,
+   "revenue": 92964.0,
+   "avg_order_value": 73.9
+  },
+  {
+   "month": "2020-12",
+   "events": 1612725,
+   "users": 104315,
+   "sessions": 133368,
+   "purchase_events": 2434,
+   "purchases_without_id": 94,
+   "orders": 2310,
+   "revenue": 158904.0,
+   "avg_order_value": 68.79
+  },
+  {
+   "month": "2021-01",
+   "events": 1210147,
+   "users": 94790,
+   "sessions": 118380,
+   "purchase_events": 1204,
+   "purchases_without_id": 300,
+   "orders": 894,
+   "revenue": 56806.0,
+   "avg_order_value": 63.54
+  },
+  {
+   "month": "all",
+   "events": 4295584,
+   "users": 270154,
+   "sessions": 360129,
+   "purchase_events": 5692,
+   "purchases_without_id": 883,
+   "orders": 4462,
+   "revenue": 308674.0,
+   "avg_order_value": 69.18
+  }
+ ],
+ "funnel": {
+  "all": {
+   "steps": [
+    {
+     "key": "visitors",
+     "label": "Visited the store",
+     "n": 213114
+    },
+    {
+     "key": "view_item",
+     "label": "Viewed a product",
+     "n": 45985
+    },
+    {
+     "key": "add_to_cart",
+     "label": "Added to cart",
+     "n": 12081
+    },
+    {
+     "key": "begin_checkout",
+     "label": "Started checkout",
+     "n": 5339
+    },
+    {
+     "key": "add_payment_info",
+     "label": "Entered payment",
+     "n": 3472
+    },
+    {
+     "key": "purchase",
+     "label": "Bought",
+     "n": 2783
+    }
+   ],
+   "any_purchase": 3426
+  },
+  "desktop": {
+   "steps": [
+    {
+     "key": "visitors",
+     "label": "Visited the store",
+     "n": 123734
+    },
+    {
+     "key": "view_item",
+     "label": "Viewed a product",
+     "n": 26856
+    },
+    {
+     "key": "add_to_cart",
+     "label": "Added to cart",
+     "n": 7002
+    },
+    {
+     "key": "begin_checkout",
+     "label": "Started checkout",
+     "n": 3087
+    },
+    {
+     "key": "add_payment_info",
+     "label": "Entered payment",
+     "n": 2002
+    },
+    {
+     "key": "purchase",
+     "label": "Bought",
+     "n": 1589
+    }
+   ],
+   "any_purchase": 1953
+  },
+  "mobile": {
+   "steps": [
+    {
+     "key": "visitors",
+     "label": "Visited the store",
+     "n": 84568
+    },
+    {
+     "key": "view_item",
+     "label": "Viewed a product",
+     "n": 18075
+    },
+    {
+     "key": "add_to_cart",
+     "label": "Added to cart",
+     "n": 4813
+    },
+    {
+     "key": "begin_checkout",
+     "label": "Started checkout",
+     "n": 2134
+    },
+    {
+     "key": "add_payment_info",
+     "label": "Entered payment",
+     "n": 1392
+    },
+    {
+     "key": "purchase",
+     "label": "Bought",
+     "n": 1131
+    }
+   ],
+   "any_purchase": 1394
+  },
+  "tablet": {
+   "steps": [
+    {
+     "key": "visitors",
+     "label": "Visited the store",
+     "n": 4812
+    },
+    {
+     "key": "view_item",
+     "label": "Viewed a product",
+     "n": 1054
+    },
+    {
+     "key": "add_to_cart",
+     "label": "Added to cart",
+     "n": 266
+    },
+    {
+     "key": "begin_checkout",
+     "label": "Started checkout",
+     "n": 118
+    },
+    {
+     "key": "add_payment_info",
+     "label": "Entered payment",
+     "n": 78
+    },
+    {
+     "key": "purchase",
+     "label": "Bought",
+     "n": 63
+    }
+   ],
+   "any_purchase": 79
+  },
+  "holiday": {
+   "steps": [
+    {
+     "key": "visitors",
+     "label": "Visited the store",
+     "n": 121671
+    },
+    {
+     "key": "view_item",
+     "label": "Viewed a product",
+     "n": 27759
+    },
+    {
+     "key": "add_to_cart",
+     "label": "Added to cart",
+     "n": 8766
+    },
+    {
+     "key": "begin_checkout",
+     "label": "Started checkout",
+     "n": 4117
+    },
+    {
+     "key": "add_payment_info",
+     "label": "Entered payment",
+     "n": 2591
+    },
+    {
+     "key": "purchase",
+     "label": "Bought",
+     "n": 2105
+    }
+   ],
+   "any_purchase": 2581
+  },
+  "january": {
+   "steps": [
+    {
+     "key": "visitors",
+     "label": "Visited the store",
+     "n": 91443
+    },
+    {
+     "key": "view_item",
+     "label": "Viewed a product",
+     "n": 18226
+    },
+    {
+     "key": "add_to_cart",
+     "label": "Added to cart",
+     "n": 3315
+    },
+    {
+     "key": "begin_checkout",
+     "label": "Started checkout",
+     "n": 1222
+    },
+    {
+     "key": "add_payment_info",
+     "label": "Entered payment",
+     "n": 881
+    },
+    {
+     "key": "purchase",
+     "label": "Bought",
+     "n": 678
+    }
+   ],
+   "any_purchase": 845
+  }
+ },
+ "channels": [
+  {
+   "dimension": "channel",
+   "segment": "Organic search",
+   "visitors": 101742,
+   "buyers": 1336,
+   "conversion": 0.01313,
+   "orders": 1621,
+   "revenue": 107783.0,
+   "revenue_per_visitor": 1.059,
+   "avg_order_value": 66.49
+  },
+  {
+   "dimension": "channel",
+   "segment": "Direct",
+   "visitors": 64109,
+   "buyers": 846,
+   "conversion": 0.0132,
+   "orders": 1021,
+   "revenue": 71806.0,
+   "revenue_per_visitor": 1.12,
+   "avg_order_value": 70.33
+  },
+  {
+   "dimension": "channel",
+   "segment": "Unknown (hidden in the sample)",
+   "visitors": 50001,
+   "buyers": 744,
+   "conversion": 0.01488,
+   "orders": 904,
+   "revenue": 64218.0,
+   "revenue_per_visitor": 1.284,
+   "avg_order_value": 71.04
+  },
+  {
+   "dimension": "channel",
+   "segment": "Referral",
+   "visitors": 40020,
+   "buyers": 606,
+   "conversion": 0.01514,
+   "orders": 715,
+   "revenue": 49469.0,
+   "revenue_per_visitor": 1.236,
+   "avg_order_value": 69.19
+  },
+  {
+   "dimension": "channel",
+   "segment": "Paid search",
+   "visitors": 14282,
+   "buyers": 181,
+   "conversion": 0.01267,
+   "orders": 205,
+   "revenue": 15554.0,
+   "revenue_per_visitor": 1.089,
+   "avg_order_value": 75.87
+  }
+ ],
+ "devices": [
+  {
+   "dimension": "device",
+   "segment": "desktop",
+   "visitors": 156905,
+   "buyers": 2116,
+   "conversion": 0.01349,
+   "orders": 2566,
+   "revenue": 177172.0,
+   "revenue_per_visitor": 1.129,
+   "avg_order_value": 69.05
+  },
+  {
+   "dimension": "device",
+   "segment": "mobile",
+   "visitors": 107175,
+   "buyers": 1516,
+   "conversion": 0.01415,
+   "orders": 1811,
+   "revenue": 125229.0,
+   "revenue_per_visitor": 1.168,
+   "avg_order_value": 69.15
+  },
+  {
+   "dimension": "device",
+   "segment": "tablet",
+   "visitors": 6074,
+   "buyers": 81,
+   "conversion": 0.01334,
+   "orders": 89,
+   "revenue": 6429.0,
+   "revenue_per_visitor": 1.058,
+   "avg_order_value": 72.24
+  }
+ ],
+ "retention": [
+  {
+   "week": "2020-11-02",
+   "size": 19194,
+   "share": [
+    0.06236,
+    0.03376,
+    0.02318,
+    0.02266,
+    0.01943,
+    0.01287,
+    0.00578,
+    0.0038,
+    0.00672,
+    0.00542,
+    0.00412,
+    0.00391
+   ]
+  },
+  {
+   "week": "2020-11-09",
+   "size": 16080,
+   "share": [
+    0.06692,
+    0.03041,
+    0.02575,
+    0.02425,
+    0.01505,
+    0.00752,
+    0.00423,
+    0.00609,
+    0.0051,
+    0.00529,
+    0.00398
+   ]
+  },
+  {
+   "week": "2020-11-16",
+   "size": 18011,
+   "share": [
+    0.0568,
+    0.03292,
+    0.02371,
+    0.01793,
+    0.00716,
+    0.00433,
+    0.00483,
+    0.00472,
+    0.00422,
+    0.0035
+   ]
+  },
+  {
+   "week": "2020-11-23",
+   "size": 19570,
+   "share": [
+    0.04987,
+    0.02453,
+    0.01543,
+    0.00715,
+    0.00445,
+    0.00511,
+    0.0048,
+    0.00404,
+    0.00342
+   ]
+  },
+  {
+   "week": "2020-11-30",
+   "size": 21879,
+   "share": [
+    0.05348,
+    0.02244,
+    0.00896,
+    0.00635,
+    0.00681,
+    0.00539,
+    0.00389,
+    0.00402
+   ]
+  },
+  {
+   "week": "2020-12-07",
+   "size": 28221,
+   "share": [
+    0.03288,
+    0.00932,
+    0.00666,
+    0.01021,
+    0.00574,
+    0.00407,
+    0.00376
+   ]
+  },
+  {
+   "week": "2020-12-14",
+   "size": 24653,
+   "share": [
+    0.02856,
+    0.00949,
+    0.01233,
+    0.00909,
+    0.00584,
+    0.00438
+   ]
+  },
+  {
+   "week": "2020-12-21",
+   "size": 17277,
+   "share": [
+    0.02541,
+    0.01129,
+    0.00984,
+    0.00573,
+    0.00423
+   ]
+  },
+  {
+   "week": "2020-12-28",
+   "size": 16475,
+   "share": [
+    0.02434,
+    0.00892,
+    0.00595,
+    0.00455
+   ]
+  },
+  {
+   "week": "2021-01-04",
+   "size": 22733,
+   "share": [
+    0.03114,
+    0.0124,
+    0.00849
+   ]
+  },
+  {
+   "week": "2021-01-11",
+   "size": 21237,
+   "share": [
+    0.03602,
+    0.01384
+   ]
+  },
+  {
+   "week": "2021-01-18",
+   "size": 20498,
+   "share": [
+    0.04074
+   ]
+  },
+  {
+   "week": "2021-01-25",
+   "size": 18949,
+   "share": []
+  }
+ ],
+ "returns": [
+  {
+   "season": "Before the holidays (1\u201324 Nov)",
+   "first_day": "bought on first day",
+   "visitors": 706,
+   "returned": 262,
+   "return_rate": 0.3711
+  },
+  {
+   "season": "Before the holidays (1\u201324 Nov)",
+   "first_day": "did not buy on first day",
+   "visitors": 60597,
+   "returned": 8007,
+   "return_rate": 0.13214
+  },
+  {
+   "season": "Holiday season (25 Nov\u201331 Dec)",
+   "first_day": "bought on first day",
+   "visitors": 1277,
+   "returned": 450,
+   "return_rate": 0.35239
+  },
+  {
+   "season": "Holiday season (25 Nov\u201331 Dec)",
+   "first_day": "did not buy on first day",
+   "visitors": 114591,
+   "returned": 9428,
+   "return_rate": 0.08228
+  },
+  {
+   "season": "January (1\u201317 Jan)",
+   "first_day": "bought on first day",
+   "visitors": 235,
+   "returned": 91,
+   "return_rate": 0.38723
+  },
+  {
+   "season": "January (1\u201317 Jan)",
+   "first_day": "did not buy on first day",
+   "visitors": 50263,
+   "returned": 3640,
+   "return_rate": 0.07242
+  }
+ ],
+ "products": [
+  {
+   "category": "Apparel",
+   "units": 5447,
+   "revenue": 171727.0,
+   "share_of_revenue": 0.4742
+  },
+  {
+   "category": "New",
+   "units": 2132,
+   "revenue": 25813.0,
+   "share_of_revenue": 0.0713
+  },
+  {
+   "category": "Bags",
+   "units": 1053,
+   "revenue": 23860.0,
+   "share_of_revenue": 0.0659
+  },
+  {
+   "category": "Campus Collection",
+   "units": 2184,
+   "revenue": 20061.0,
+   "share_of_revenue": 0.0554
+  },
+  {
+   "category": "Accessories",
+   "units": 2006,
+   "revenue": 17815.0,
+   "share_of_revenue": 0.0492
+  },
+  {
+   "category": "Uncategorized Items",
+   "units": 810,
+   "revenue": 17394.0,
+   "share_of_revenue": 0.048
+  },
+  {
+   "category": "Shop by Brand",
+   "units": 1198,
+   "revenue": 16960.0,
+   "share_of_revenue": 0.0468
+  },
+  {
+   "category": "Drinkware",
+   "units": 1104,
+   "revenue": 15807.0,
+   "share_of_revenue": 0.0437
+  },
+  {
+   "category": "Lifestyle",
+   "units": 816,
+   "revenue": 13423.0,
+   "share_of_revenue": 0.0371
+  },
+  {
+   "category": "Clearance",
+   "units": 906,
+   "revenue": 11476.0,
+   "share_of_revenue": 0.0317
+  },
+  {
+   "category": "Office",
+   "units": 2075,
+   "revenue": 9078.0,
+   "share_of_revenue": 0.0251
+  },
+  {
+   "category": "(not set)",
+   "units": 1042,
+   "revenue": 7319.0,
+   "share_of_revenue": 0.0202
+  },
+  {
+   "category": "Google",
+   "units": 683,
+   "revenue": 3115.0,
+   "share_of_revenue": 0.0086
+  },
+  {
+   "category": "Stationery",
+   "units": 712,
+   "revenue": 1532.0,
+   "share_of_revenue": 0.0042
+  },
+  {
+   "category": "Writing Instruments",
+   "units": 417,
+   "revenue": 870.0,
+   "share_of_revenue": 0.0024
+  },
+  {
+   "category": "Everything else",
+   "units": 583,
+   "revenue": 5860.0,
+   "share_of_revenue": 0.0162
+  }
+ ],
+ "opportunity": [
+  {
+   "step": 1,
+   "leak": "Browsing \u2192 viewing a product",
+   "reached": 213114,
+   "passed": 45985,
+   "lost": 167129,
+   "pass_rate": 0.2158,
+   "buy_rate_after": 0.0605,
+   "extra_buyers": 1011.5,
+   "extra_revenue": 70124.0,
+   "avg_order_value": 69.33
+  },
+  {
+   "step": 2,
+   "leak": "Viewing \u2192 adding to cart",
+   "reached": 45985,
+   "passed": 12081,
+   "lost": 33904,
+   "pass_rate": 0.2627,
+   "buy_rate_after": 0.2304,
+   "extra_buyers": 781.0,
+   "extra_revenue": 54147.0,
+   "avg_order_value": 69.33
+  },
+  {
+   "step": 3,
+   "leak": "Cart \u2192 starting checkout",
+   "reached": 12081,
+   "passed": 5339,
+   "lost": 6742,
+   "pass_rate": 0.4419,
+   "buy_rate_after": 0.5213,
+   "extra_buyers": 351.4,
+   "extra_revenue": 24365.0,
+   "avg_order_value": 69.33
+  },
+  {
+   "step": 4,
+   "leak": "Shipping \u2192 entering payment",
+   "reached": 5339,
+   "passed": 3472,
+   "lost": 1867,
+   "pass_rate": 0.6503,
+   "buy_rate_after": 0.8016,
+   "extra_buyers": 149.7,
+   "extra_revenue": 10375.0,
+   "avg_order_value": 69.33
+  },
+  {
+   "step": 5,
+   "leak": "Payment \u2192 completing the order",
+   "reached": 3472,
+   "passed": 2783,
+   "lost": 689,
+   "pass_rate": 0.8016,
+   "buy_rate_after": 1.0,
+   "extra_buyers": 68.9,
+   "extra_revenue": 4777.0,
+   "avg_order_value": 69.33
+  }
+ ],
+ "quality": [
+  {
+   "issue": "Visitors with more than one \"first\" traffic source",
+   "count": 41164,
+   "handling": "A first-touch source should never change; channel results use each visitor\u2019s first event and are read as rough."
+  },
+  {
+   "issue": "Visits where shipping info is logged before checkout starts",
+   "count": 6862,
+   "handling": "The two fire together, so they are treated as one step."
+  },
+  {
+   "issue": "Visits with a purchase but no add-to-cart in that visit",
+   "count": 2000,
+   "handling": "Buyers often add to cart in an earlier visit, so funnels follow visitors, not single visits."
+  },
+  {
+   "issue": "Purchase events without an order ID",
+   "count": 883,
+   "handling": "Left out of order counts and revenue; still counted as buyers."
+  },
+  {
+   "issue": "Purchase events that repeat an order already counted",
+   "count": 335,
+   "handling": "Each order is counted once."
+  },
+  {
+   "issue": "Days with no add-to-cart events at all",
+   "count": 18,
+   "handling": "Cart tracking was off until 16 Nov 2020 and on and off until 25 Nov; cart analysis starts 25 Nov."
+  },
+  {
+   "issue": "Purchased product IDs that also appear on a product view",
+   "count": 4,
+   "handling": "IDs were obfuscated per event type, so products cannot be followed from view to sale; product analysis uses purchases only."
+  }
+ ],
+ "run": {
+  "at": "2026-10-08T07:56:16+00:00",
+  "gb_scanned": 3.3
+ },
+ "sql": {
+  "00_overview": "-- The store at a glance, by month and in total: visitors, visits, purchases and revenue.\n-- A purchase is counted once per order (transaction_id); some purchase events repeat the same order.\n-- 883 purchase events carry no order ID ('(not set)'), so they're reported separately.\nWITH events AS (\n  SELECT\n    FORMAT_DATE('%Y-%m', PARSE_DATE('%Y%m%d', event_date)) AS m,\n    user_pseudo_id,\n    event_name,\n    (SELECT value.int_value FROM UNNEST(event_params) WHERE key = 'ga_session_id') AS session_id,\n    ecommerce.transaction_id,\n    ecommerce.purchase_revenue_in_usd AS revenue\n  FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`\n),\norders AS (                        -- one row per real order\n  SELECT m, transaction_id, MAX(revenue) AS revenue\n  FROM events\n  WHERE event_name = 'purchase' AND transaction_id != '(not set)'\n  GROUP BY m, transaction_id\n),\ntraffic AS (\n  SELECT IFNULL(m, 'all') AS month,\n         COUNT(*)                                                         AS events,\n         COUNT(DISTINCT user_pseudo_id)                                   AS users,\n         COUNT(DISTINCT CONCAT(user_pseudo_id, CAST(session_id AS STRING))) AS sessions,\n         COUNTIF(event_name = 'purchase')                                 AS purchase_events,\n         COUNTIF(event_name = 'purchase' AND transaction_id = '(not set)') AS purchases_without_id\n  FROM events\n  GROUP BY ROLLUP(m)\n),\nsales AS (\n  SELECT IFNULL(m, 'all') AS month, COUNT(*) AS orders, SUM(revenue) AS revenue, AVG(revenue) AS avg_order_value\n  FROM orders\n  GROUP BY ROLLUP(m)\n)\nSELECT t.*, s.orders, ROUND(s.revenue, 2) AS revenue, ROUND(s.avg_order_value, 2) AS avg_order_value\nFROM traffic t JOIN sales s USING (month)\nORDER BY month = 'all', month;\n",
+  "01_funnel": "-- Where do shoppers drop out? Each visitor is followed through the checkout steps: they count at\n-- a step if they did it and every step before it at some point in the window. Shown for everyone,\n-- by device, and by season (when in the window they first came).\n--\n-- Window: 25 Nov 2020 to 31 Jan 2021. Before 25 Nov the store wasn't recording \"add to cart\"\n-- reliably (none at all until 16 Nov, then on and off), so earlier weeks would undercount carts.\n-- Why visitors and not single visits: the tracking logs some steps out of order (shipping info\n-- often lands before \"begin checkout\") and many buyers add to cart in one visit and buy in a later\n-- one. 09_data_quality.sql counts both.\nWITH steps AS (\n  SELECT\n    user_pseudo_id,\n    LOGICAL_OR(event_name = 'view_item')         AS viewed,\n    LOGICAL_OR(event_name = 'add_to_cart')       AS carted,\n    LOGICAL_OR(event_name = 'begin_checkout')    AS checked_out,\n    LOGICAL_OR(event_name = 'add_shipping_info') AS shipping,\n    LOGICAL_OR(event_name = 'add_payment_info')  AS payment,\n    LOGICAL_OR(event_name = 'purchase')          AS purchased,\n    ARRAY_AGG(device.category ORDER BY event_timestamp, event_name LIMIT 1)[OFFSET(0)] AS device,   -- device on their first visit\n    IF(MIN(event_date) < '20210101', 'holiday', 'january')                AS season\n  FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`\n  WHERE _TABLE_SUFFIX BETWEEN '20201125' AND '20210131'      -- one table per day; this reads only the window\n  GROUP BY user_pseudo_id\n)\nSELECT\n  CASE WHEN GROUPING(device) = 0 THEN 'device' WHEN GROUPING(season) = 0 THEN 'season' ELSE 'all' END AS dimension,\n  COALESCE(device, season, 'all')                                                AS segment,\n  COUNT(*)                                                                       AS visitors,\n  COUNTIF(viewed)                                                                AS view_item,\n  COUNTIF(viewed AND carted)                                                     AS add_to_cart,\n  COUNTIF(viewed AND carted AND checked_out)                                     AS begin_checkout,\n  COUNTIF(viewed AND carted AND checked_out AND shipping)                        AS add_shipping_info,\n  COUNTIF(viewed AND carted AND checked_out AND shipping AND payment)            AS add_payment_info,\n  COUNTIF(viewed AND carted AND checked_out AND shipping AND payment AND purchased) AS purchase,\n  COUNTIF(purchased)                                                             AS any_purchase   -- buyers, whatever steps were logged\nFROM steps\nGROUP BY GROUPING SETS ((), (device), (season))\nORDER BY dimension, segment;\n",
+  "02_channels": "-- Which traffic brings buyers, and which brings only browsers? Visitors grouped by how they first\n-- found the store (GA4's first-touch traffic source) and by device. All three months: visits and\n-- purchases were tracked throughout.\n-- '<Other>' and '(data deleted)' are sources Google obfuscated in this public sample.\nWITH visitors AS (\n  SELECT\n    user_pseudo_id,\n    -- first touch, read from the visitor's first event: in this obfuscated sample a few visitors carry\n    -- more than one value, so \"any value\" would change from run to run\n    ARRAY_AGG(traffic_source.medium ORDER BY event_timestamp, event_name LIMIT 1)[OFFSET(0)] AS medium,\n    ARRAY_AGG(device.category ORDER BY event_timestamp, event_name LIMIT 1)[OFFSET(0)]       AS device\n  FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`\n  GROUP BY user_pseudo_id\n),\norders AS (                          -- one row per real order, with who placed it\n  SELECT user_pseudo_id, ecommerce.transaction_id, MAX(ecommerce.purchase_revenue_in_usd) AS revenue\n  FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`\n  WHERE event_name = 'purchase' AND ecommerce.transaction_id != '(not set)'\n  GROUP BY user_pseudo_id, ecommerce.transaction_id\n),\nper_visitor AS (\n  SELECT v.*,\n         CASE v.medium WHEN 'organic' THEN 'Organic search' WHEN '(none)' THEN 'Direct' WHEN 'referral' THEN 'Referral'\n                       WHEN 'cpc' THEN 'Paid search' ELSE 'Unknown (hidden in the sample)' END AS channel,\n         COUNT(o.transaction_id) AS orders, IFNULL(SUM(o.revenue), 0) AS revenue\n  FROM visitors v LEFT JOIN orders o USING (user_pseudo_id)\n  GROUP BY v.user_pseudo_id, v.medium, v.device\n)\nSELECT\n  IF(GROUPING(channel) = 0, 'channel', 'device')       AS dimension,\n  COALESCE(channel, device)                            AS segment,\n  COUNT(*)                                             AS visitors,\n  COUNTIF(orders > 0)                                  AS buyers,\n  ROUND(COUNTIF(orders > 0) / COUNT(*), 5)             AS conversion,\n  SUM(orders)                                          AS orders,\n  ROUND(SUM(revenue), 2)                               AS revenue,\n  ROUND(SUM(revenue) / COUNT(*), 3)                    AS revenue_per_visitor,\n  ROUND(SAFE_DIVIDE(SUM(revenue), SUM(orders)), 2)     AS avg_order_value\nFROM per_visitor\nGROUP BY GROUPING SETS ((channel), (device))\nORDER BY dimension, visitors DESC;\n",
+  "03_retention": "-- Do visitors come back? Weekly cohorts by first visit: of the people who first came in a given\n-- week, the share who visited again 1, 2, 3 ... weeks later. A cohort is only shown for weeks the\n-- data actually covers (it ends on 31 Jan 2021).\nWITH visits AS (\n  SELECT DISTINCT user_pseudo_id, DATE_TRUNC(PARSE_DATE('%Y%m%d', event_date), WEEK(MONDAY)) AS week\n  FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`\n  WHERE event_name = 'session_start'\n),\ncohorts AS (\n  SELECT user_pseudo_id, MIN(week) AS cohort_week FROM visits GROUP BY user_pseudo_id\n),\nactivity AS (\n  SELECT c.cohort_week, DATE_DIFF(v.week, c.cohort_week, WEEK) AS weeks_later, COUNT(DISTINCT v.user_pseudo_id) AS active\n  FROM cohorts c JOIN visits v USING (user_pseudo_id)\n  GROUP BY c.cohort_week, weeks_later\n),\nsizes AS (\n  SELECT cohort_week, COUNT(*) AS cohort_size FROM cohorts GROUP BY cohort_week\n)\nSELECT FORMAT_DATE('%Y-%m-%d', a.cohort_week) AS cohort_week, s.cohort_size, a.weeks_later, a.active,\n       ROUND(a.active / s.cohort_size, 5) AS share\nFROM activity a JOIN sizes s USING (cohort_week)\nWHERE a.cohort_week >= '2020-11-02'                     -- the first full week (data starts on a Sunday)\n  AND DATE_ADD(a.cohort_week, INTERVAL a.weeks_later WEEK) <= '2021-01-25'   -- last full week\nORDER BY a.cohort_week, a.weeks_later;\n",
+  "04_return_rates": "-- Do holiday shoppers come back? The share of first-time visitors who returned within 14 days,\n-- by when they first came, and separately for those who bought on their first day.\n-- 14 days so every group can be followed in full: first visits up to 17 Jan 2021.\nWITH sessions AS (\n  SELECT user_pseudo_id, PARSE_DATE('%Y%m%d', event_date) AS day, event_name\n  FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`\n  WHERE event_name IN ('session_start', 'purchase')\n),\nfirst_seen AS (\n  SELECT user_pseudo_id, MIN(day) AS first_day FROM sessions WHERE event_name = 'session_start' GROUP BY user_pseudo_id\n),\nper_visitor AS (\n  SELECT f.user_pseudo_id, f.first_day,\n         CASE WHEN f.first_day < '2020-11-25' THEN '1 Before the holidays (1\u201324 Nov)'\n              WHEN f.first_day < '2021-01-01' THEN '2 Holiday season (25 Nov\u201331 Dec)'\n              ELSE '3 January (1\u201317 Jan)' END AS season,\n         LOGICAL_OR(s.event_name = 'purchase' AND s.day = f.first_day)                                   AS bought_first_day,\n         LOGICAL_OR(s.event_name = 'session_start' AND s.day > f.first_day AND s.day <= f.first_day + 14) AS returned_14d\n  FROM first_seen f JOIN sessions s USING (user_pseudo_id)\n  WHERE f.first_day <= '2021-01-17'\n  GROUP BY f.user_pseudo_id, f.first_day\n)\nSELECT SUBSTR(season, 3) AS season,\n       IF(bought_first_day, 'bought on first day', 'did not buy on first day') AS first_day,\n       COUNT(*) AS visitors, COUNTIF(returned_14d) AS returned, ROUND(COUNTIF(returned_14d) / COUNT(*), 5) AS return_rate\nFROM per_visitor\nGROUP BY season, first_day\nORDER BY season, first_day;\n",
+  "05_products": "-- What sells? Units and revenue by product category, from purchase events only.\n-- A per-product funnel (views \u2192 carts \u2192 sales) isn't possible in this public sample: Google\n-- obfuscated product IDs differently on each event type, and a single \"view_item\" event lists\n-- about five products. 09_data_quality.sql counts both.\nWITH sold AS (\n  SELECT IFNULL(NULLIF(i.item_category, ''), '(not set)') AS category,\n         IFNULL(i.quantity, 1) AS units, IFNULL(i.item_revenue_in_usd, 0) AS revenue\n  FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`, UNNEST(items) AS i\n  WHERE event_name = 'purchase'\n),\nper_category AS (\n  SELECT category, SUM(units) AS units, SUM(revenue) AS revenue FROM sold GROUP BY category\n)\nSELECT IF(units >= 300, category, 'Everything else') AS category,\n       SUM(units) AS units, ROUND(SUM(revenue), 2) AS revenue,\n       ROUND(SUM(revenue) / SUM(SUM(revenue)) OVER (), 4) AS share_of_revenue\nFROM per_category\nGROUP BY 1\nORDER BY category = 'Everything else', revenue DESC;\n",
+  "06_opportunity": "-- What should the store fix first, and what is it worth? For each step of the funnel: how many\n-- visitors leave there, and the extra revenue if the store won back 1 in 10 of them, assuming they\n-- then behave like the visitors who did carry on (same chance of buying, same order value).\n-- Window: 25 Nov 2020 to 31 Jan 2021, as in 01_funnel.sql. An estimate of scale, not a forecast.\nWITH steps AS (\n  SELECT user_pseudo_id,\n    LOGICAL_OR(event_name = 'view_item')        AS viewed,\n    LOGICAL_OR(event_name = 'add_to_cart')      AS carted,\n    LOGICAL_OR(event_name = 'begin_checkout')   AS checked_out,\n    LOGICAL_OR(event_name = 'add_payment_info') AS payment,     -- shipping info is logged with checkout, so it's merged into it\n    LOGICAL_OR(event_name = 'purchase')         AS purchased\n  FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`\n  WHERE _TABLE_SUFFIX BETWEEN '20201125' AND '20210131'\n  GROUP BY user_pseudo_id\n),\nfunnel AS (\n  SELECT 1 AS step, 'Browsing \u2192 viewing a product' AS leak, COUNT(*) AS reached, COUNTIF(viewed) AS passed FROM steps\n  UNION ALL SELECT 2, 'Viewing \u2192 adding to cart',       COUNTIF(viewed), COUNTIF(viewed AND carted) FROM steps\n  UNION ALL SELECT 3, 'Cart \u2192 starting checkout',       COUNTIF(viewed AND carted), COUNTIF(viewed AND carted AND checked_out) FROM steps\n  UNION ALL SELECT 4, 'Shipping \u2192 entering payment',    COUNTIF(viewed AND carted AND checked_out), COUNTIF(viewed AND carted AND checked_out AND payment) FROM steps\n  UNION ALL SELECT 5, 'Payment \u2192 completing the order', COUNTIF(viewed AND carted AND checked_out AND payment),\n                      COUNTIF(viewed AND carted AND checked_out AND payment AND purchased) FROM steps\n),\nbuyers AS (\n  SELECT COUNTIF(viewed AND carted AND checked_out AND payment AND purchased) AS n FROM steps\n),\naov AS (                               -- average order value in the window, one row per real order\n  SELECT AVG(revenue) AS value FROM (\n    SELECT ecommerce.transaction_id, MAX(ecommerce.purchase_revenue_in_usd) AS revenue\n    FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`\n    WHERE _TABLE_SUFFIX BETWEEN '20201125' AND '20210131'\n      AND event_name = 'purchase' AND ecommerce.transaction_id != '(not set)'\n    GROUP BY 1)\n)\nSELECT f.step, f.leak, f.reached, f.passed, f.reached - f.passed AS lost,\n       ROUND(f.passed / f.reached, 4)                                        AS pass_rate,\n       ROUND(b.n / f.passed, 4)                                              AS buy_rate_after,     -- of those who passed, share who bought\n       ROUND(0.1 * (f.reached - f.passed) * b.n / f.passed, 1)               AS extra_buyers,\n       ROUND(0.1 * (f.reached - f.passed) * b.n / f.passed * a.value, 0)     AS extra_revenue,\n       ROUND(a.value, 2)                                                     AS avg_order_value\nFROM funnel f, buyers b, aov a\nORDER BY f.step;\n",
+  "09_data_quality": "-- How far can this data be trusted? Counts of the tracking quirks the other queries work around.\nWITH events AS (\n  SELECT user_pseudo_id, (SELECT value.int_value FROM UNNEST(event_params) WHERE key = 'ga_session_id') AS session_id,\n         event_name, event_timestamp, event_date, ecommerce.transaction_id\n  FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`\n  WHERE event_name IN ('add_to_cart', 'begin_checkout', 'add_shipping_info', 'purchase')\n),\nvisits AS (\n  SELECT user_pseudo_id, session_id,\n         MIN(IF(event_name = 'add_to_cart', event_timestamp, NULL))       AS t_cart,\n         MIN(IF(event_name = 'begin_checkout', event_timestamp, NULL))    AS t_checkout,\n         MIN(IF(event_name = 'add_shipping_info', event_timestamp, NULL)) AS t_shipping,\n         MIN(IF(event_name = 'purchase', event_timestamp, NULL))          AS t_purchase\n  FROM events GROUP BY user_pseudo_id, session_id\n),\nitem_ids AS (\n  SELECT event_name, i.item_id\n  FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`, UNNEST(items) AS i\n  WHERE event_name IN ('view_item', 'purchase') AND i.item_id != '(not set)'\n),\nsources AS (\n  SELECT user_pseudo_id, COUNT(DISTINCT traffic_source.medium) AS n\n  FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_*`\n  GROUP BY user_pseudo_id\n),\ndaily_carts AS (\n  SELECT event_date, COUNTIF(event_name = 'add_to_cart') AS carts FROM events GROUP BY event_date\n)\nSELECT 'Days with no add-to-cart events at all'                     AS issue, (SELECT COUNTIF(carts = 0) FROM daily_carts) AS count, 'Cart tracking was off until 16 Nov 2020 and on and off until 25 Nov; cart analysis starts 25 Nov.' AS handling\nUNION ALL SELECT 'Visits where shipping info is logged before checkout starts', (SELECT COUNTIF(t_shipping < t_checkout) FROM visits), 'The two fire together, so they are treated as one step.'\nUNION ALL SELECT 'Visits with a purchase but no add-to-cart in that visit',   (SELECT COUNTIF(t_purchase IS NOT NULL AND t_cart IS NULL) FROM visits), 'Buyers often add to cart in an earlier visit, so funnels follow visitors, not single visits.'\nUNION ALL SELECT 'Purchase events without an order ID',                       (SELECT COUNTIF(event_name = 'purchase' AND transaction_id = '(not set)') FROM events), 'Left out of order counts and revenue; still counted as buyers.'\nUNION ALL SELECT 'Purchase events that repeat an order already counted',      (SELECT COUNTIF(event_name = 'purchase' AND transaction_id != '(not set)') - COUNT(DISTINCT IF(event_name = 'purchase' AND transaction_id != '(not set)', transaction_id, NULL)) FROM events), 'Each order is counted once.'\nUNION ALL SELECT 'Purchased product IDs that also appear on a product view',\n          (SELECT COUNT(DISTINCT item_id) FROM item_ids WHERE event_name = 'purchase'\n             AND item_id IN (SELECT item_id FROM item_ids WHERE event_name = 'view_item')),\n          'IDs were obfuscated per event type, so products cannot be followed from view to sale; product analysis uses purchases only.'\nUNION ALL SELECT 'Visitors with more than one \"first\" traffic source',\n          (SELECT COUNTIF(n > 1) FROM sources),\n          'A first-touch source should never change; channel results use each visitor\u2019s first event and are read as rough.'\nORDER BY count DESC;\n"
+ }
+}

@@ -1,0 +1,9 @@
+dimension,segment,visitors,buyers,conversion,orders,revenue,revenue_per_visitor,avg_order_value
+channel,Organic search,101742,1336,0.01313,1621,107783.0,1.059,66.49
+channel,Direct,64109,846,0.0132,1021,71806.0,1.12,70.33
+channel,Unknown (hidden in the sample),50001,744,0.01488,904,64218.0,1.284,71.04
+channel,Referral,40020,606,0.01514,715,49469.0,1.236,69.19
+channel,Paid search,14282,181,0.01267,205,15554.0,1.089,75.87
+device,desktop,156905,2116,0.01349,2566,177172.0,1.129,69.05
+device,mobile,107175,1516,0.01415,1811,125229.0,1.168,69.15
+device,tablet,6074,81,0.01334,89,6429.0,1.058,72.24

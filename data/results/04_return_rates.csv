@@ -1,0 +1,7 @@
+season,first_day,visitors,returned,return_rate
+Before the holidays (1–24 Nov),bought on first day,706,262,0.3711
+Before the holidays (1–24 Nov),did not buy on first day,60597,8007,0.13214
+Holiday season (25 Nov–31 Dec),bought on first day,1277,450,0.35239
+Holiday season (25 Nov–31 Dec),did not buy on first day,114591,9428,0.08228
+January (1–17 Jan),bought on first day,235,91,0.38723
+January (1–17 Jan),did not buy on first day,50263,3640,0.07242

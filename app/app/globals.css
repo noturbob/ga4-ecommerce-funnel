@@ -1,0 +1,156 @@
+@import "tailwindcss";
+
+/* Design tokens: "botanical wedding invitation on blush paper" (danielaandmoe.com reference).
+   Spacing names are pixel-literal: p-32 = 32px. rounded-full = the 200px pill. */
+@theme {
+  --color-blush-canvas: #fef1ec;
+  --color-ink-navy: #11223f;
+  --color-coral-vermillion: #ff5734;
+  --color-dusty-peach: #f6bba4;
+  --color-forest-ink: #193c35;
+  --color-olive-grove: #7e813c;
+  --color-mustard-bloom: #e5ba2b;
+  --color-ember-orange: #ec4f22;
+  --color-sage-mist: #c6d7d0;
+  --color-deep-indigo: #092a49;
+  --color-pure-white: #ffffff;
+
+  --text-caption: 12px;
+  --text-body-sm: 16px;
+  --text-body: 20px;
+  --text-subheading: 24px;
+  --text-heading-sm: 28px;
+  --text-heading: 36px;
+  --text-heading-lg: 48px;
+  --text-display: 120px;
+
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-160: 160px;
+
+  --radius-full: 200px;
+}
+
+/* Canela and Calibre are commercial: Cormorant Garamond (light) and Hanken Grotesk stand in. */
+@theme inline {
+  --font-serif: var(--font-cormorant), Georgia, serif;
+  --font-sans: var(--font-hanken), ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  overflow-x: clip;
+}
+
+body {
+  overflow-x: clip;
+  background: var(--color-blush-canvas);
+  color: var(--color-ink-navy);
+  font-family: var(--font-sans);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Tracked small caps: section markers, labels, nav. They whisper. */
+.label {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  line-height: 1.6;
+}
+
+.display {
+  font-family: var(--font-serif);
+  font-weight: 300;
+  letter-spacing: -0.01em;
+}
+
+.serif-caps {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.num {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+
+/* Outlined coral pill: the one action shape. */
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1.5px solid var(--color-coral-vermillion);
+  border-radius: 200px;
+  padding: 6px 20px;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--color-ink-navy);
+  transition: background-color 0.2s, color 0.2s;
+}
+.pill[aria-pressed="true"] {
+  background: var(--color-coral-vermillion);
+  color: var(--color-pure-white);
+}
+
+/* Links: the coral underline materialises on hover. */
+.link {
+  text-decoration: none;
+  background-image: linear-gradient(var(--color-coral-vermillion), var(--color-coral-vermillion));
+  background-size: 0 1.5px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 0.25s;
+}
+.link:hover,
+.link:focus-visible {
+  background-size: 100% 1.5px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-coral-vermillion);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: var(--color-dusty-peach);
+}
+
+/* The garden grows in once, on load. */
+@keyframes grow {
+  from {
+    opacity: 0;
+    transform: scale(0.92) rotate(-2deg);
+  }
+}
+.grow {
+  animation: grow 1.4s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  transform-box: fill-box;
+  transform-origin: center;
+}
+@media (prefers-reduced-motion: reduce) {
+  .grow {
+    animation: none;
+  }
+}
